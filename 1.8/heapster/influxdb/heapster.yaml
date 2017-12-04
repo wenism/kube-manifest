@@ -44,3 +44,4 @@ spec:
     targetPort: 8082
   selector:
     k8s-app: heapster
+  type: NodePort
